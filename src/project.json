@@ -1,0 +1,25 @@
+{
+  "version": "1.0.7-*",
+  "packOptions": {
+    "summary": "Common Library for Palantir code",
+    "tags": [ "" ],
+    "projectUrl": "http://www.palantir.co.za/",
+    "licenseUrl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "requireLicenseAcceptance": true
+  },
+  "description": "EventStore implementation, ServiceBus implementation, a Paging system, MultiValueDictionary, SystemClock objects, Logging Extensions",
+  "authors": [ "seanh" ],
+  "copyright": "Copyright Palantir (Pty) Ltd. 2016",
+  "frameworks": {
+     "net46": { },
+     "net451": { }
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.0",
+    "FakeItEasy": "2.1.0",
+    "PagedList": "1.17.0",
+    "RavenDB.Client": "3.0.30143",
+    "Microsoft.Owin": "3.0.1",
+    "Serilog": "2.0.0"
+  }
+}
