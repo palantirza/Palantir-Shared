@@ -1,0 +1,25 @@
+{
+  "version": "1.0.9-*",
+  "packOptions": {
+    "tags": [ "" ],
+    "projectUrl": "http://www.palantir.co.za/",
+    "licenseUrl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "requireLicenseAcceptance": true
+  },
+  "description": "Palantir.Testing Class Library",
+  "authors": [ "seanh" ],
+  "copyright": "Copyright Palantir (Pty) Ltd. 2016",
+  "dependencies": {
+    "xunit": "2.1.0",
+    "Palantir.Common": "*",
+    "FakeItEasy": "2.1.0",
+    "FluentAssertions": "4.11.0",
+    "FluentValidation": "6.2.1",
+    "NSubstitute": "1.10.0",
+    "NServiceBus": "5.2.14"
+  },
+  "frameworks": {
+    "net46": {},
+    "net451": {}
+  }
+}

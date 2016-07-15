@@ -1,0 +1,24 @@
+{
+  "version": "1.0.3-*",
+  "packOptions": {
+    "summary": "Library for ASP.NET 5 compatible flexible and extensible Feature Toggles that can be configured via multiple sources",
+    "tags": [ "feature", "feature-toggles" ],
+    "projectUrl": "http://www.palantir.co.za/",
+    "licenseUrl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "requireLicenseAcceptance": true
+  },
+  "description": "Based on Martin Fowler's article http://martinfowler.com/articles/feature-toggles.html, and incorporating into the design the ability to report on and control feature toggles remotely.",
+  "authors": [ "seanh" ],
+  "language": "en-US",
+  "copyright": "Copyright Palantir (Pty) Ltd. 2016",
+  "dependencies": {
+    "System.Diagnostics.Contracts": "4.0.1",
+    "Palantir.Common": "*",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "Microsoft.Experimental.Collections": "1.0.3-alpha"
+  },
+  "frameworks": {
+    "net46": {},
+    "net451": {}
+  }
+}

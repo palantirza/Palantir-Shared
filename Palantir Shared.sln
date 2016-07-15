@@ -3,8 +3,93 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{9220911E-1F18-4880-8023-2EA4B78EAB30}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Common", "src\Palantir.Common\Palantir.Common.xproj", "{1C6064BB-653A-4F00-AECF-A14BA507E160}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Testing", "src\Palantir.Testing\Palantir.Testing.xproj", "{8564BB67-36D6-4659-8464-F675797AE9AD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Common.UnitTests", "tst\Palantir.Common.UnitTests\Palantir.Common.UnitTests.xproj", "{C482E9A2-A03A-41D6-9267-14E9FA7A15C9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Features", "src\Palantir.Features\Palantir.Features.xproj", "{5E0C046A-ABCE-460A-8AED-8684A395B72C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Features.UnitTests", "tst\Palantir.Features.UnitTests\Palantir.Features.UnitTests.xproj", "{795E546A-36CD-4602-8E65-7C2B67EE440D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Health", "src\Palantir.Health\Palantir.Health.xproj", "{EED55897-D92E-48D4-9520-50F8891C6EE7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Mvc", "src\Palantir.Mvc\Palantir.Mvc.xproj", "{31AB194B-C3A9-4249-85D0-8753ECDE84FA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Policy", "src\Palantir.Policy\Palantir.Policy.xproj", "{277B5CBD-5EE2-435E-BB2D-EA5907FEC6A3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Health.UnitTests", "tst\Palantir.Health.UnitTests\Palantir.Health.UnitTests.xproj", "{8DFB658D-FAAD-4964-8204-7315D8942457}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Palantir.Policy.UnitTests", "tst\Palantir.Policy.UnitTests\Palantir.Policy.UnitTests.xproj", "{A0D14418-73CD-453E-9139-7A8F7A1EA347}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C6064BB-653A-4F00-AECF-A14BA507E160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6064BB-653A-4F00-AECF-A14BA507E160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6064BB-653A-4F00-AECF-A14BA507E160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6064BB-653A-4F00-AECF-A14BA507E160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8564BB67-36D6-4659-8464-F675797AE9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8564BB67-36D6-4659-8464-F675797AE9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8564BB67-36D6-4659-8464-F675797AE9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8564BB67-36D6-4659-8464-F675797AE9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C482E9A2-A03A-41D6-9267-14E9FA7A15C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C482E9A2-A03A-41D6-9267-14E9FA7A15C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C482E9A2-A03A-41D6-9267-14E9FA7A15C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C482E9A2-A03A-41D6-9267-14E9FA7A15C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0C046A-ABCE-460A-8AED-8684A395B72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0C046A-ABCE-460A-8AED-8684A395B72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0C046A-ABCE-460A-8AED-8684A395B72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0C046A-ABCE-460A-8AED-8684A395B72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795E546A-36CD-4602-8E65-7C2B67EE440D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795E546A-36CD-4602-8E65-7C2B67EE440D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795E546A-36CD-4602-8E65-7C2B67EE440D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795E546A-36CD-4602-8E65-7C2B67EE440D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED55897-D92E-48D4-9520-50F8891C6EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED55897-D92E-48D4-9520-50F8891C6EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED55897-D92E-48D4-9520-50F8891C6EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED55897-D92E-48D4-9520-50F8891C6EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AB194B-C3A9-4249-85D0-8753ECDE84FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AB194B-C3A9-4249-85D0-8753ECDE84FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AB194B-C3A9-4249-85D0-8753ECDE84FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AB194B-C3A9-4249-85D0-8753ECDE84FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277B5CBD-5EE2-435E-BB2D-EA5907FEC6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277B5CBD-5EE2-435E-BB2D-EA5907FEC6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277B5CBD-5EE2-435E-BB2D-EA5907FEC6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277B5CBD-5EE2-435E-BB2D-EA5907FEC6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFB658D-FAAD-4964-8204-7315D8942457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFB658D-FAAD-4964-8204-7315D8942457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFB658D-FAAD-4964-8204-7315D8942457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFB658D-FAAD-4964-8204-7315D8942457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D14418-73CD-453E-9139-7A8F7A1EA347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D14418-73CD-453E-9139-7A8F7A1EA347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D14418-73CD-453E-9139-7A8F7A1EA347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D14418-73CD-453E-9139-7A8F7A1EA347}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C6064BB-653A-4F00-AECF-A14BA507E160} = {61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}
+		{8564BB67-36D6-4659-8464-F675797AE9AD} = {61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}
+		{C482E9A2-A03A-41D6-9267-14E9FA7A15C9} = {9220911E-1F18-4880-8023-2EA4B78EAB30}
+		{5E0C046A-ABCE-460A-8AED-8684A395B72C} = {61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}
+		{795E546A-36CD-4602-8E65-7C2B67EE440D} = {9220911E-1F18-4880-8023-2EA4B78EAB30}
+		{EED55897-D92E-48D4-9520-50F8891C6EE7} = {61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}
+		{31AB194B-C3A9-4249-85D0-8753ECDE84FA} = {61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}
+		{277B5CBD-5EE2-435E-BB2D-EA5907FEC6A3} = {61C02745-6F2D-4C8C-9AE2-7F9BC53564CE}
+		{8DFB658D-FAAD-4964-8204-7315D8942457} = {9220911E-1F18-4880-8023-2EA4B78EAB30}
+		{A0D14418-73CD-453E-9139-7A8F7A1EA347} = {9220911E-1F18-4880-8023-2EA4B78EAB30}
 	EndGlobalSection
 EndGlobal

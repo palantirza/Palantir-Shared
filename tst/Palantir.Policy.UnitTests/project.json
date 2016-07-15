@@ -1,18 +1,17 @@
 {
   "version": "1.0.0-*",
-  "description": "",
-  "authors": [ "" ],
-  "tooling": {
-    "defaultNamespace": "Palantir.Common.UnitTests"
-  },
+  "description": "Palantir.Policy.UnitTests Class Library",
+  "authors": [ "seanh" ],
   "dependencies": {
     "xunit": "2.2.0-beta2-build3300",
     "dotnet-test-xunit": "2.2.0-preview2-build1029",
     "xunit.runner.console": "2.2.0-beta2-build3300",
-    "Palantir.Common": "*",
-    "Palantir.Testing": "*",
     "FluentAssertions": "4.11.0",
-    "NSubstitute": "1.10.0"
+    "Palantir.Common": "*",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0",
+    "NSubstitute": "1.10.0",
+    "Palantir.Policy": "*",
+    "MathNet.Numerics": "3.12.0"
   },
   "testRunner": "xunit",
   "frameworks": {
